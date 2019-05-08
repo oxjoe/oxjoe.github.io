@@ -1,5 +1,5 @@
 # My Website
-Created with HTML, CSS, and Bootstrap.
+Developed with HTML, CSS, and Bootstrap.
 
 Used Font Awesome.
 
