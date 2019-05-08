@@ -1,47 +1,50 @@
 body {
     background: #111E2F;
     color: white;
-    font-family: "Times New Roman", serif;
+    font-family: "Georgia", serif;
     text-align: center;
-
 }
 
 h1 {
-    font-weight: bold;
-    font-size: 4.375em;
-    font-style: oblique;
+    font-size: 5em;
 }
 
 p {
-    font-size: 1.25em;
-}
-
-.links {
-    font-size: 3.75em;
-    font-style: italic;
-    text-align: center;
+    font-size: 1.5em;
 }
 
 #row-space {
     height: 8em;
 }
 
-
-img {
-    width: 30em;
+.links {
+    font-size: 3.75em;
+    text-align: center;
 }
 
-footer {
-    font-size: 2.00em;
-    text-align: right;
-
+img {
+    width: 28em;
 }
 
 a {
     color: white;
-    text-decoration: none;
 }
 
-a:hover {
+.green:hover {
     color: #6BB99F;
+    cursor: pointer;
+}
+
+.orange:hover {
+    color: #E48656;
+    cursor: pointer;
+}
+
+.yellow:hover {
+    color: #F1DF6A;
+    cursor: pointer;
+}
+
+footer {
+    font-size: 1.25em;
 }

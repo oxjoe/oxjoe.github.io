@@ -1,4 +1,8 @@
 # My Website
-Built with HTML, CSS and Bootstrap.
+Created with HTML, CSS, and Bootstrap.
+
+Used FontAwesome.
+
+Not optimized for mobile devices... yet.
 
 https://oxjoe.github.io/
