@@ -13,24 +13,44 @@
 </head>
 
 
-<body id="index">
-<header><h1>Joseph Pong</h1></header>
-<h6> Welcome to my site. Where you can find links to more sites about me.
-    Contact me at josephpong@oulook.com</h6>
-<section class="links">
-    <nav>
-        <article><a href="https://www.linkedin.com/in/oxjoe/">LinkedIn</a></article>
-        <article><a href="https://github.com/oxjoe">GitHub</a></article>
-        <article><a href="/Joseph Pong - Resume.pdf">Resume</a></article>
-        <article><a href="https://soundcloud.com/oxjoe">Music</a></article>
+<body>
+<div class = "container">
+    <header><h1>Joseph Pong</h1></header>
+    <p> Welcome to my site, where you can find links to more sites about me.
+        <br>Contact me at josephpong@oulook.com</p>
+</div>
 
-    </nav>
-</section>
 
-<br>
+<!--https://getbootstrap.com/docs/4.0/layout/grid/-->
+<!--Responsive typography?-->
+<div class = "container">
+    <div class="row justify-content-md-center"">
+        <div class="col-xs-6">
+            <div class="row" id="row-space"></div>
+            <section class="links">
+                <nav>
+                    <article><a href="https://www.linkedin.com/in/oxjoe/">LinkedIn</a></article>
+                    <article><a href="https://github.com/oxjoe">GitHub</a></article>
+                    <article><a href="/Joseph Pong - Resume.pdf">Resume</a></article>
+                    <article><a href="https://soundcloud.com/oxjoe">Music</a></article>
+
+                </nav>
+            </section>
+        </div>
+        <div class="col-xs-6">
+            <img src="./background.png" class="img-fluid" alt="Responsive image">
+        </div>
+    </div>
+</div>
 
 <!--need to label where my background came from-->
-<footer>?</footer>
+<div class="container">
+    <footer>?</footer>
+</div>
+
+
+
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

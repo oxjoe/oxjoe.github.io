@@ -1,15 +1,47 @@
 body {
     background: #111E2F;
+    color: white;
+    font-family: "Times New Roman", serif;
+    text-align: center;
+
 }
 
-#index {
-    color: white;
+h1 {
+    font-weight: bold;
+    font-size: 4.375em;
+    font-style: oblique;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+.links {
+    font-size: 3.75em;
+    font-style: italic;
+    text-align: center;
+}
+
+#row-space {
+    height: 8em;
+}
+
+
+img {
+    width: 30em;
+}
+
+footer {
+    font-size: 2.00em;
+    text-align: right;
+
 }
 
 a {
     color: white;
     text-decoration: none;
 }
+
 a:hover {
     color: #6BB99F;
 }
