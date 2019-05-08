@@ -1,50 +1,52 @@
 body {
-    background: #111E2F;
-    color: white;
-    font-family: "Georgia", serif;
-    text-align: center;
+  background: #111e2f;
+  color: white;
+  font-family: "Georgia", serif;
+  text-align: center;
 }
 
 h1 {
-    font-size: 5em;
+  font-size: 3em;
+  font-style: oblique;
 }
 
-p {
-    font-size: 1.5em;
+h6 {
+  font-size: 1em;
 }
 
 #row-space {
-    height: 8em;
+  height: 1.6em;
 }
 
 .links {
-    font-size: 3.75em;
-    text-align: center;
+  font-size: 2em;
+  text-align: center;
+  font-style: italic;
 }
 
 img {
-    width: 28em;
+  width: 10em;
 }
 
 a {
-    color: white;
-}
-
-.green:hover {
-    color: #6BB99F;
-    cursor: pointer;
-}
-
-.orange:hover {
-    color: #E48656;
-    cursor: pointer;
-}
-
-.yellow:hover {
-    color: #F1DF6A;
-    cursor: pointer;
+  color: white;
 }
 
 footer {
-    font-size: 1.25em;
+  font-size: 1em;
+}
+
+.green:hover {
+  color: #6bb99f;
+  cursor: pointer;
+}
+
+.orange:hover {
+  color: #e48656;
+  cursor: pointer;
+}
+
+.yellow:hover {
+  color: #f1df6a;
+  cursor: pointer;
 }
