@@ -3,4 +3,4 @@ Developed with HTML, CSS, and Bootstrap.
 
 Used Font Awesome.
 
-https://oxjoe.github.io/
+https://oxjoe.github.io
