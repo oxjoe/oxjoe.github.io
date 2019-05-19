@@ -25,70 +25,57 @@
     <link rel="stylesheet" type="text/css" href="index.css" />
   </head>
 
-  <div class="container">
-    <header><h1>Joseph Pong</h1></header>
-    <h6>
-      Welcome to my site, where you can find links to more sites about me.
-    </h6>
-  </div>
-
   <body>
-    <!--Need to do responsive typography-->
     <div class="container">
-      <div class="row justify-content-lg-center">
-        <div class="col-lg-auto justify-content-lg-center">
-          <div class="row" id="row-space"></div>
-          <section class="links">
-            <nav>
-              <article>
-                <a
-                  href="/Joseph Pong - Resume.pdf"
-                  class="green"
-                  >Resume</a
-                >
-              </article>
-              <article>
-                <a href="https://github.com/oxjoe" class="orange">GitHub</a>
-              </article>
-              <article>
-                <a href="https://www.linkedin.com/in/oxjoe/" class="green"
-                  >LinkedIn</a
-                >
-              </article>
-              <article>
-                <a href="https://soundcloud.com/oxjoe" class="orange">Music</a>
-              </article>
-            </nav>
-          </section>
+      <header>
+        <h1>Joseph Pong</h1>
+        <h6>
+          Welcome to my site, where you can find links to more sites about me.
+        </h6>
+      </header>
+      <div class="row no-gutters align-items-center">
+        <div class="col d-flex justify-content-end">
+          <nav class="links flex-column">
+            <a href="/Joseph Pong - Resume.pdf" class="nav-link green"
+              >Resume</a
+            >
+            <a href="https://github.com/oxjoe" class="nav-link orange"
+              >GitHub</a
+            >
+            <a href="https://www.linkedin.com/in/oxjoe/" class="nav-link green"
+              >LinkedIn</a
+            >
+            <a href="https://soundcloud.com/oxjoe" class="nav-link orange"
+              >Music</a
+            >
+          </nav>
         </div>
-        <div class="col-">
+        <div class="col">
+          <!-- width of image is in CSS -->
           <img
             src="./background.png"
-            class="img-fluid center-block"
+            class="img-fluid d-flex justify-content-start"
             alt="Responsive image"
           />
         </div>
       </div>
+      <footer>
+        <a class="yellow" href="mailto: josephpong@outlook.com">Email Me</a>
+        |
+        <a href="https://youtu.be/57zFkL9GSZA">
+          <i
+            class="fas fa-question-circle yellow"
+            title="Developed with Bootstrap. The image above was not created by me."
+          >
+          </i>
+        </a>
+      </footer>
     </div>
   </body>
 
-  <footer>
-    <div class="container">
-      <a class="yellow" href="mailto: josephpong@outlook.com">Email Me</a>
-      |
-      <a href="https://youtu.be/57zFkL9GSZA">
-        <i
-          class="fas fa-question-circle yellow"
-          title="Created with Bootstrap. The image above was not created by me."
-        >
-        </i>
-      </a>
-    </div>
-  </footer>
-
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script
+  <!-- <script
     src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"
@@ -102,5 +89,5 @@
     src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"
-  ></script>
+  ></script> -->
 </html>

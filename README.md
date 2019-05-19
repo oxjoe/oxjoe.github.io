@@ -1,6 +1,6 @@
 # My Website
 Developed with HTML, CSS, and Bootstrap.
 
-Used Font Awesome.
+I also used Font Awesome.
 
 https://oxjoe.github.io

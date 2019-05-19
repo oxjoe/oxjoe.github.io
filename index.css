@@ -7,25 +7,18 @@ body {
 
 h1 {
   font-size: 3em;
-  font-style: oblique;
 }
 
 h6 {
   font-size: 1em;
 }
 
-#row-space {
-  height: 1.6em;
-}
-
 .links {
-  font-size: 2em;
-  text-align: center;
-  font-style: italic;
+  font-size: 1.75em;
 }
 
 img {
-  width: 10em;
+  width: 9em;
 }
 
 a {
