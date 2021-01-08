@@ -18,7 +18,7 @@ h6 {
 }
 
 img {
-  width: 9em;
+  width: 8em;
 }
 
 a {
@@ -41,5 +41,10 @@ footer {
 
 .yellow:hover {
   color: #f1df6a;
+  cursor: pointer;
+}
+
+.palevioletred:hover {
+  color: palevioletred;
   cursor: pointer;
 }
