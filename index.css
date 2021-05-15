@@ -21,6 +21,10 @@ img {
   width: 8em;
 }
 
+.nav-link {
+  color: white
+}
+
 a {
   color: white;
 }
@@ -29,8 +33,8 @@ footer {
   font-size: 1em;
 }
 
-.green:hover {
-  color: #6bb99f;
+.skyblue:hover {
+  color: skyblue;
   cursor: pointer;
 }
 
@@ -41,6 +45,11 @@ footer {
 
 .yellow:hover {
   color: #f1df6a;
+  cursor: pointer;
+}
+
+.pink:hover {
+  color: pink;
   cursor: pointer;
 }
 
