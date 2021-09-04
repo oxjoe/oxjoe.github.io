@@ -21,6 +21,10 @@ img {
   width: 8em;
 }
 
+.nav-link:focus, .nav-link:hover {
+  color: white;
+}
+
 .nav-link {
   color: white
 }
