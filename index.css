@@ -1,0 +1,63 @@
+body {
+  background: #111e2f;
+  color: white;
+  font-family: "Georgia", serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+.links {
+  font-size: 1.65em;
+}
+
+img {
+  width: 8em;
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: white;
+}
+
+.nav-link {
+  color: white
+}
+
+a {
+  color: white;
+}
+
+footer {
+  font-size: 1em;
+}
+
+.skyblue:hover {
+  color: skyblue;
+  cursor: pointer;
+}
+
+.orange:hover {
+  color: #e48656;
+  cursor: pointer;
+}
+
+.yellow:hover {
+  color: #f1df6a;
+  cursor: pointer;
+}
+
+.pink:hover {
+  color: pink;
+  cursor: pointer;
+}
+
+.palevioletred:hover {
+  color: palevioletred;
+  cursor: pointer;
+}
